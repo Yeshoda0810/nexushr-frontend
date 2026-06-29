@@ -78,3 +78,12 @@ export interface PerformanceReviewItem {
   rating: number | null;
   status: 'DRAFT' | 'SUBMITTED' | 'ACKNOWLEDGED';
 }
+export interface AttritionInsight {
+  employeeId: number;
+  employeeName: string;
+  leaveCount: number;
+  latestRating: number | null;
+  tenureMonths: number;
+  riskScore: number;
+  riskLevel: 'LOW' | 'MEDIUM' | 'HIGH';
+}
