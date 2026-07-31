@@ -109,8 +109,7 @@ export default function LoginPage() {
 
         {/* 3D floating card */}
         <motion.div className="relative z-10"
-          initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4, duration: 0.6 }}
-          animate={{ y: [0, -8, 0] }}
+          initial={{ opacity: 0, y: 24 }} animate={{ y: [0, -8, 0] }}
           transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}>
           <div className="rounded-2xl p-5"
             style={{
